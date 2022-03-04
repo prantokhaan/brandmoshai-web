@@ -1,38 +1,105 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Space Grotesk', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header{
+  background-color: #FCDB67;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-item{
+  font-size: 17px;
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.nav-item:nth-child(1){
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.nav-item:hover{
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+
+.primary-btn{
+  background-color: #242320;
+  border: 1px solid #242320;
+  padding: 13px 28px;
+  border-radius: 5px;
   color: white;
+  font-weight: bolder;
+
+}
+.primary-btn:hover{
+  background-color: transparent;
+  transition: all 0.3s ease;
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text{
+  font-size: 60px;
+  color: black;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-detail{
+  font-family: 'Mulish', sans-serif;
+  font-size: 17px;
+  color: #1f1f1f;
+  padding-right: 50px;
+  margin-right: 20px;
+}
+
+.banner-img img{
+  /* border: 15px solid black; */
+  border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  box-shadow: 0 0 0 15px black;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.arrow img{
+  margin-left: 200px;
+  margin-top: -30px;
+}
+
+.banner-star{
+  margin-top: -50px;
+  margin-left: 5px;
+}
+.fa-star{
+  font-size: 30px;
+}
+
+.banner-star h6{
+  font-size: 18px;
+}
+.bn-sp{
+  color: #32361e;
+  font-size: 15px;
+}
+
+
+.bn-img-ex{
+  background-color: white;
+  z-index: 99;
+  position: relative;
+  width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  margin-left: 20px;
+  margin-top: -70px;
+}
+.bn-img-ex img{
+  border-radius: 20px;
+  
+}
+.ex-info h3{
+  font-size: 40px;
+  font-weight: bold;
+}
+.ex-info h5{
+  color: gray;
 }
